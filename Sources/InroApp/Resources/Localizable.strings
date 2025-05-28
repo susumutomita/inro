@@ -1,0 +1,24 @@
+/* English Localizations */
+
+/* Main Screen */
+"age_verification_title" = "Age Verification";
+"scan_instruction" = "Scan your MyNumber Card to verify you are 20 or older";
+"scan_card_button" = "Scan Card";
+
+/* Scanning Screen */
+"scanning_title" = "Scanning...";
+"scanning_instruction" = "Hold your MyNumber Card near the iPhone";
+
+/* Success Screen */
+"over_20_badge" = "OVER 20";
+"verification_success" = "Age verification successful";
+"done_button" = "Done";
+
+/* Failure Screen */
+"under_20_badge" = "UNDER 20";
+"age_requirement_not_met" = "Age requirement not met";
+"ok_button" = "OK";
+
+/* Error Screen */
+"error_title" = "Error";
+"try_again_button" = "Try Again";

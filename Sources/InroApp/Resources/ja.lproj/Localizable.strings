@@ -1,0 +1,24 @@
+/* Japanese Localizations */
+
+/* Main Screen */
+"age_verification_title" = "年齢確認";
+"scan_instruction" = "マイナンバーカードをスキャンして20歳以上であることを確認";
+"scan_card_button" = "カードをスキャン";
+
+/* Scanning Screen */
+"scanning_title" = "スキャン中...";
+"scanning_instruction" = "マイナンバーカードをiPhoneに近づけてください";
+
+/* Success Screen */
+"over_20_badge" = "20歳以上";
+"verification_success" = "年齢確認が完了しました";
+"done_button" = "完了";
+
+/* Failure Screen */
+"under_20_badge" = "20歳未満";
+"age_requirement_not_met" = "年齢要件を満たしていません";
+"ok_button" = "OK";
+
+/* Error Screen */
+"error_title" = "エラー";
+"try_again_button" = "もう一度試す";

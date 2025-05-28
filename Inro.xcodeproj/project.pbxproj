@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45678901234567890ABCDEF /* InroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678891234567890ABCDEF /* InroApp.swift */; };
+		D45678921234567890ABCDEF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678911234567890ABCDEF /* MainView.swift */; };
+		D45678941234567890ABCDEF /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678931234567890ABCDEF /* ReadyView.swift */; };
+		D45678961234567890ABCDEF /* ScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678951234567890ABCDEF /* ScanningView.swift */; };
+		D45678981234567890ABCDEF /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678971234567890ABCDEF /* SuccessView.swift */; };
+		D456789A1234567890ABCDEF /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678991234567890ABCDEF /* FailureView.swift */; };
+		D456789C1234567890ABCDEF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456789B1234567890ABCDEF /* ErrorView.swift */; };
+		D456789E1234567890ABCDEF /* InroCore in Frameworks */ = {isa = PBXBuildFile; productRef = D456789D1234567890ABCDEF /* InroCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D45678861234567890ABCDEF /* Inro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45678891234567890ABCDEF /* InroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroApp.swift; sourceTree = "<group>"; };
+		D45678911234567890ABCDEF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D45678931234567890ABCDEF /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
+		D45678951234567890ABCDEF /* ScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningView.swift; sourceTree = "<group>"; };
+		D45678971234567890ABCDEF /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		D45678991234567890ABCDEF /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
+		D456789B1234567890ABCDEF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D45678A01234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45678A11234567890ABCDEF /* Inro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inro.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45678831234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D456789E1234567890ABCDEF /* InroCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D456787D1234567890ABCDEF = {
+			isa = PBXGroup;
+			children = (
+				D45678881234567890ABCDEF /* Sources */,
+				D45678871234567890ABCDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45678871234567890ABCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45678861234567890ABCDEF /* Inro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45678881234567890ABCDEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D456789F1234567890ABCDEF /* InroApp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D456789F1234567890ABCDEF /* InroApp */ = {
+			isa = PBXGroup;
+			children = (
+				D45678891234567890ABCDEF /* InroApp.swift */,
+				D45678A21234567890ABCDEF /* Views */,
+				D45678A01234567890ABCDEF /* Info.plist */,
+				D45678A11234567890ABCDEF /* Inro.entitlements */,
+			);
+			path = InroApp;
+			sourceTree = "<group>";
+		};
+		D45678A21234567890ABCDEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D45678911234567890ABCDEF /* MainView.swift */,
+				D45678931234567890ABCDEF /* ReadyView.swift */,
+				D45678951234567890ABCDEF /* ScanningView.swift */,
+				D45678971234567890ABCDEF /* SuccessView.swift */,
+				D45678991234567890ABCDEF /* FailureView.swift */,
+				D456789B1234567890ABCDEF /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45678851234567890ABCDEF /* Inro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45678B41234567890ABCDEF /* Build configuration list for PBXNativeTarget "Inro" */;
+			buildPhases = (
+				D45678821234567890ABCDEF /* Sources */,
+				D45678831234567890ABCDEF /* Frameworks */,
+				D45678841234567890ABCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inro;
+			packageProductDependencies = (
+				D456789D1234567890ABCDEF /* InroCore */,
+			);
+			productName = Inro;
+			productReference = D45678861234567890ABCDEF /* Inro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D456787E1234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D45678851234567890ABCDEF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D45678811234567890ABCDEF /* Build configuration list for PBXProject "Inro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = D456787D1234567890ABCDEF;
+			packageReferences = (
+			);
+			productRefGroup = D45678871234567890ABCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45678851234567890ABCDEF /* Inro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45678841234567890ABCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45678821234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45678901234567890ABCDEF /* InroApp.swift in Sources */,
+				D45678921234567890ABCDEF /* MainView.swift in Sources */,
+				D45678941234567890ABCDEF /* ReadyView.swift in Sources */,
+				D45678961234567890ABCDEF /* ScanningView.swift in Sources */,
+				D45678981234567890ABCDEF /* SuccessView.swift in Sources */,
+				D456789A1234567890ABCDEF /* FailureView.swift in Sources */,
+				D456789C1234567890ABCDEF /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D45678B21234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45678B31234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45678B51234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/InroApp/Inro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/InroApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Inro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
+					"nfc",
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inro.age-verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45678B61234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/InroApp/Inro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/InroApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Inro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
+					"nfc",
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inro.age-verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45678811234567890ABCDEF /* Build configuration list for PBXProject "Inro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45678B21234567890ABCDEF /* Debug */,
+				D45678B31234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45678B41234567890ABCDEF /* Build configuration list for PBXNativeTarget "Inro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45678B51234567890ABCDEF /* Debug */,
+				D45678B61234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D456787E1234567890ABCDEF /* Project object */;
+}

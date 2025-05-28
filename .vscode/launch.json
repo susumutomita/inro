@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:inro}",
+      "name": "Debug InroApp",
+      "program": "${workspaceFolder:inro}/.build/debug/InroApp",
+      "preLaunchTask": "swift: Build Debug InroApp"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:inro}",
+      "name": "Release InroApp",
+      "program": "${workspaceFolder:inro}/.build/release/InroApp",
+      "preLaunchTask": "swift: Build Release InroApp"
+    }
+  ]
+}
