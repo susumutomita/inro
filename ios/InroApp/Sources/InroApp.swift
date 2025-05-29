@@ -1,11 +1,11 @@
 import SwiftUI
-import InroCore
+import InroUI
 
 @main
 struct InroApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ScanView()
         }
     }
 }

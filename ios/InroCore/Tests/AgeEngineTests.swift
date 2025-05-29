@@ -47,28 +47,28 @@ final class AgeEngineTests: XCTestCase {
         components.day = 29
         let birthDate = Calendar.current.date(from: components)!
         
-        // Reference date: Feb 28, 2024 (19 years, 11 months, 30 days old)
+        // Reference date: Feb 28, 2024 (not quite 20 yet)
         components.year = 2024
         components.month = 2
         components.day = 28
-        let referenceDate = Calendar.current.date(from: components)!
+        let beforeBirthday = Calendar.current.date(from: components)!
         
         // When
-        let result = AgeEngine.isOverMinimumAge(birthDate: birthDate, referenceDate: referenceDate)
+        let resultBefore = AgeEngine.isOverMinimumAge(birthDate: birthDate, referenceDate: beforeBirthday)
         
         // Then
-        XCTAssertFalse(result)
+        XCTAssertFalse(resultBefore, "Should be false before 20th birthday")
         
         // Reference date: Mar 1, 2024 (20 years old)
-        components.day = 1
         components.month = 3
+        components.day = 1
         let afterBirthday = Calendar.current.date(from: components)!
         
         // When
         let resultAfter = AgeEngine.isOverMinimumAge(birthDate: birthDate, referenceDate: afterBirthday)
         
         // Then
-        XCTAssertTrue(resultAfter)
+        XCTAssertTrue(resultAfter, "Should be true after 20th birthday")
     }
     
     func testCalculateAge_ReturnsCorrectAge() {
@@ -126,5 +126,23 @@ final class AgeEngineTests: XCTestCase {
         
         // Then
         XCTAssertFalse(result)
+    }
+    
+    func testIsOverMinimumAge_BoundaryCase_ExactlyOnBirthday() {
+        // Given - Someone born exactly 20 years ago today
+        var components = DateComponents()
+        components.year = 2005
+        components.month = 5
+        components.day = 29
+        let birthDate = Calendar.current.date(from: components)!
+        
+        components.year = 2025
+        let referenceDate = Calendar.current.date(from: components)!
+        
+        // When
+        let result = AgeEngine.isOverMinimumAge(birthDate: birthDate, referenceDate: referenceDate)
+        
+        // Then
+        XCTAssertTrue(result, "Should be true on exact 20th birthday")
     }
 }

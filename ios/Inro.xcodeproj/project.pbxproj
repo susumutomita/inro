@@ -8,24 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D45678901234567890ABCDEF /* InroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678891234567890ABCDEF /* InroApp.swift */; };
-		D45678921234567890ABCDEF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678911234567890ABCDEF /* MainView.swift */; };
-		D45678941234567890ABCDEF /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678931234567890ABCDEF /* ReadyView.swift */; };
-		D45678961234567890ABCDEF /* ScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678951234567890ABCDEF /* ScanningView.swift */; };
-		D45678981234567890ABCDEF /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678971234567890ABCDEF /* SuccessView.swift */; };
-		D456789A1234567890ABCDEF /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678991234567890ABCDEF /* FailureView.swift */; };
-		D456789C1234567890ABCDEF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456789B1234567890ABCDEF /* ErrorView.swift */; };
-		D456789E1234567890ABCDEF /* InroCore in Frameworks */ = {isa = PBXBuildFile; productRef = D456789D1234567890ABCDEF /* InroCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D45678861234567890ABCDEF /* Inro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45678891234567890ABCDEF /* InroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroApp.swift; sourceTree = "<group>"; };
-		D45678911234567890ABCDEF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		D45678931234567890ABCDEF /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
-		D45678951234567890ABCDEF /* ScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningView.swift; sourceTree = "<group>"; };
-		D45678971234567890ABCDEF /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
-		D45678991234567890ABCDEF /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
-		D456789B1234567890ABCDEF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		D45678A01234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45678A11234567890ABCDEF /* Inro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inro.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +22,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D456789E1234567890ABCDEF /* InroCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +31,7 @@
 		D456787D1234567890ABCDEF = {
 			isa = PBXGroup;
 			children = (
-				D45678881234567890ABCDEF /* Sources */,
+				D45678881234567890ABCDEF /* InroiOS */,
 				D45678871234567890ABCDEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,36 +44,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D45678881234567890ABCDEF /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D456789F1234567890ABCDEF /* InroApp */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		D456789F1234567890ABCDEF /* InroApp */ = {
+		D45678881234567890ABCDEF /* InroiOS */ = {
 			isa = PBXGroup;
 			children = (
 				D45678891234567890ABCDEF /* InroApp.swift */,
-				D45678A21234567890ABCDEF /* Views */,
 				D45678A01234567890ABCDEF /* Info.plist */,
 				D45678A11234567890ABCDEF /* Inro.entitlements */,
 			);
-			path = InroApp;
-			sourceTree = "<group>";
-		};
-		D45678A21234567890ABCDEF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D45678911234567890ABCDEF /* MainView.swift */,
-				D45678931234567890ABCDEF /* ReadyView.swift */,
-				D45678951234567890ABCDEF /* ScanningView.swift */,
-				D45678971234567890ABCDEF /* SuccessView.swift */,
-				D45678991234567890ABCDEF /* FailureView.swift */,
-				D456789B1234567890ABCDEF /* ErrorView.swift */,
-			);
-			path = Views;
+			path = InroiOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +71,6 @@
 			);
 			name = Inro;
 			packageProductDependencies = (
-				D456789D1234567890ABCDEF /* InroCore */,
 			);
 			productName = Inro;
 			productReference = D45678861234567890ABCDEF /* Inro.app */;
@@ -165,12 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45678901234567890ABCDEF /* InroApp.swift in Sources */,
-				D45678921234567890ABCDEF /* MainView.swift in Sources */,
-				D45678941234567890ABCDEF /* ReadyView.swift in Sources */,
-				D45678961234567890ABCDEF /* ScanningView.swift in Sources */,
-				D45678981234567890ABCDEF /* SuccessView.swift in Sources */,
-				D456789A1234567890ABCDEF /* FailureView.swift in Sources */,
-				D456789C1234567890ABCDEF /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +212,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sources/InroApp/Inro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = InroiOS/Inro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Sources/InroApp/Info.plist;
+				INFOPLIST_FILE = InroiOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Inro;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
@@ -288,12 +245,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sources/InroApp/Inro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = InroiOS/Inro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Sources/InroApp/Info.plist;
+				INFOPLIST_FILE = InroiOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Inro;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
