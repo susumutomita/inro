@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D45678851234567890ABCDEF"
+               BlueprintIdentifier = "2C8E3A192C08B40000123456"
                BuildableName = "Inro.app"
                BlueprintName = "Inro"
                ReferencedContainer = "container:Inro.xcodeproj">
@@ -42,7 +42,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D45678851234567890ABCDEF"
+            BlueprintIdentifier = "2C8E3A192C08B40000123456"
             BuildableName = "Inro.app"
             BlueprintName = "Inro"
             ReferencedContainer = "container:Inro.xcodeproj">
@@ -59,7 +59,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D45678851234567890ABCDEF"
+            BlueprintIdentifier = "2C8E3A192C08B40000123456"
             BuildableName = "Inro.app"
             BlueprintName = "Inro"
             ReferencedContainer = "container:Inro.xcodeproj">
