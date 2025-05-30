@@ -1,4 +1,5 @@
 import Foundation
+#if canImport(CoreNFC)
 import CoreNFC
 
 @available(iOS 13.0, *)
@@ -50,3 +51,4 @@ extension NFCManager: NFCTagReaderSessionDelegate {
         }
     }
 }
+#endif

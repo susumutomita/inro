@@ -45,8 +45,8 @@ struct MainView: View {
     private func startScanning() {
         verificationState = .scanning
         
-        #if targetEnvironment(simulator)
-        // Simulate NFC reading for simulator
+        #if targetEnvironment(simulator) || !canImport(CoreNFC)
+        // Simulate NFC reading for simulator or when CoreNFC is not available
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             // Simulate a person born on 2000-01-01 (over 20)
             verificationState = .success
