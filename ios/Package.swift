@@ -10,17 +10,7 @@ let package = Package(
     products: [
         .library(name: "InroCore", targets: ["InroCore"]),
         .library(name: "InroUI", targets: ["InroUI"]),
-        .iOSApplication(
-            name: "Inro",
-            targets: ["InroApp"],
-            bundleIdentifier: "com.inro.age-verification",
-            displayVersion: "1.0",
-            bundleVersion: "1",
-            appIcon: .placeholder(icon: .person),
-            accentColor: .presetColor(.blue),
-            supportedDeviceFamilies: [.pad, .phone],
-            supportedInterfaceOrientations: [.portrait]
-        )
+        .library(name: "InroApp", targets: ["InroApp"])
     ],
     targets: [
         // Core business logic
@@ -43,10 +33,13 @@ let package = Package(
         ),
         
         // Main app target
-        .executableTarget(
+        .target(
             name: "InroApp",
             dependencies: ["InroCore", "InroUI"],
-            path: "InroApp/Sources"
+            path: "InroApp/Sources",
+            resources: [
+                .process("Resources")
+            ]
         ),
         
         // Tests

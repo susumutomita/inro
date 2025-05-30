@@ -7,63 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D45678901234567890ABCDEF /* InroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45678891234567890ABCDEF /* InroApp.swift */; };
+		2C8E3A2A2C08B45300123456 /* InroCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8E3A292C08B45300123456 /* InroCore */; };
+		2C8E3A2C2C08B45800123456 /* InroUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8E3A2B2C08B45800123456 /* InroUI */; };
+		2C8E3A2E2C08B45D00123456 /* InroApp in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8E3A2D2C08B45D00123456 /* InroApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D45678861234567890ABCDEF /* Inro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D45678891234567890ABCDEF /* InroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroApp.swift; sourceTree = "<group>"; };
-		D45678A01234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D45678A11234567890ABCDEF /* Inro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inro.entitlements; sourceTree = "<group>"; };
+		2C8E3A1A2C08B40000123456 /* Inro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D45678831234567890ABCDEF /* Frameworks */ = {
+		2C8E3A172C08B40000123456 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8E3A2A2C08B45300123456 /* InroCore in Frameworks */,
+				2C8E3A2C2C08B45800123456 /* InroUI in Frameworks */,
+				2C8E3A2E2C08B45D00123456 /* InroApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D456787D1234567890ABCDEF = {
+		2C8E3A112C08B40000123456 = {
 			isa = PBXGroup;
 			children = (
-				D45678881234567890ABCDEF /* InroiOS */,
-				D45678871234567890ABCDEF /* Products */,
+				2C8E3A1B2C08B40000123456 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D45678871234567890ABCDEF /* Products */ = {
+		2C8E3A1B2C08B40000123456 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D45678861234567890ABCDEF /* Inro.app */,
+				2C8E3A1A2C08B40000123456 /* Inro.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D45678881234567890ABCDEF /* InroiOS */ = {
-			isa = PBXGroup;
-			children = (
-				D45678891234567890ABCDEF /* InroApp.swift */,
-				D45678A01234567890ABCDEF /* Info.plist */,
-				D45678A11234567890ABCDEF /* Inro.entitlements */,
-			);
-			path = InroiOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D45678851234567890ABCDEF /* Inro */ = {
+		2C8E3A192C08B40000123456 /* Inro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D45678B41234567890ABCDEF /* Build configuration list for PBXNativeTarget "Inro" */;
+			buildConfigurationList = 2C8E3A232C08B40100123456 /* Build configuration list for PBXNativeTarget "Inro" */;
 			buildPhases = (
-				D45678821234567890ABCDEF /* Sources */,
-				D45678831234567890ABCDEF /* Frameworks */,
-				D45678841234567890ABCDEF /* Resources */,
+				2C8E3A162C08B40000123456 /* Sources */,
+				2C8E3A172C08B40000123456 /* Frameworks */,
+				2C8E3A182C08B40000123456 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -71,27 +62,30 @@
 			);
 			name = Inro;
 			packageProductDependencies = (
+				2C8E3A292C08B45300123456 /* InroCore */,
+				2C8E3A2B2C08B45800123456 /* InroUI */,
+				2C8E3A2D2C08B45D00123456 /* InroApp */,
 			);
 			productName = Inro;
-			productReference = D45678861234567890ABCDEF /* Inro.app */;
+			productReference = 2C8E3A1A2C08B40000123456 /* Inro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D456787E1234567890ABCDEF /* Project object */ = {
+		2C8E3A122C08B40000123456 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					D45678851234567890ABCDEF = {
+					2C8E3A192C08B40000123456 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = D45678811234567890ABCDEF /* Build configuration list for PBXProject "Inro" */;
+			buildConfigurationList = 2C8E3A152C08B40000123456 /* Build configuration list for PBXProject "Inro" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -100,20 +94,21 @@
 				Base,
 				ja,
 			);
-			mainGroup = D456787D1234567890ABCDEF;
+			mainGroup = 2C8E3A112C08B40000123456;
 			packageReferences = (
+				2C8E3A282C08B44D00123456 /* XCLocalSwiftPackageReference ".." */,
 			);
-			productRefGroup = D45678871234567890ABCDEF /* Products */;
+			productRefGroup = 2C8E3A1B2C08B40000123456 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D45678851234567890ABCDEF /* Inro */,
+				2C8E3A192C08B40000123456 /* Inro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D45678841234567890ABCDEF /* Resources */ = {
+		2C8E3A182C08B40000123456 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,18 +118,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D45678821234567890ABCDEF /* Sources */ = {
+		2C8E3A162C08B40000123456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45678901234567890ABCDEF /* InroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D45678B21234567890ABCDEF /* Debug */ = {
+		2C8E3A212C08B40100123456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		D45678B31234567890ABCDEF /* Release */ = {
+		2C8E3A222C08B40100123456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,16 +202,16 @@
 			};
 			name = Release;
 		};
-		D45678B51234567890ABCDEF /* Debug */ = {
+		2C8E3A242C08B40100123456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = InroiOS/Inro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../InroApp/Sources/Inro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = InroiOS/Info.plist;
+				INFOPLIST_FILE = ../InroApp/Sources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Inro;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
@@ -236,21 +230,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inro.age-verification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D45678B61234567890ABCDEF /* Release */ = {
+		2C8E3A252C08B40100123456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = InroiOS/Inro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../InroApp/Sources/Inro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = InroiOS/Info.plist;
+				INFOPLIST_FILE = ../InroApp/Sources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Inro;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Inro needs camera access to scan QR codes for age verification";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Inro needs NFC access to read your MyNumber Card for age verification";
@@ -269,7 +263,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inro.age-verification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -277,25 +271,50 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D45678811234567890ABCDEF /* Build configuration list for PBXProject "Inro" */ = {
+		2C8E3A152C08B40000123456 /* Build configuration list for PBXProject "Inro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D45678B21234567890ABCDEF /* Debug */,
-				D45678B31234567890ABCDEF /* Release */,
+				2C8E3A212C08B40100123456 /* Debug */,
+				2C8E3A222C08B40100123456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D45678B41234567890ABCDEF /* Build configuration list for PBXNativeTarget "Inro" */ = {
+		2C8E3A232C08B40100123456 /* Build configuration list for PBXNativeTarget "Inro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D45678B51234567890ABCDEF /* Debug */,
-				D45678B61234567890ABCDEF /* Release */,
+				2C8E3A242C08B40100123456 /* Debug */,
+				2C8E3A252C08B40100123456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2C8E3A282C08B44D00123456 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C8E3A292C08B45300123456 /* InroCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8E3A282C08B44D00123456 /* XCLocalSwiftPackageReference ".." */;
+			productName = InroCore;
+		};
+		2C8E3A2B2C08B45800123456 /* InroUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8E3A282C08B44D00123456 /* XCLocalSwiftPackageReference ".." */;
+			productName = InroUI;
+		};
+		2C8E3A2D2C08B45D00123456 /* InroApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8E3A282C08B44D00123456 /* XCLocalSwiftPackageReference ".." */;
+			productName = InroApp;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D456787E1234567890ABCDEF /* Project object */;
+	rootObject = 2C8E3A122C08B40000123456 /* Project object */;
 }
